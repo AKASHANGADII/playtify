@@ -3,10 +3,9 @@ import 'package:playtify/logic/recently_played.dart';
 import 'package:playtify/pages/playlist.dart';
 import 'package:playtify/pages/search.dart';
 import 'package:provider/provider.dart';
-// import 'pages/recently_played.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
